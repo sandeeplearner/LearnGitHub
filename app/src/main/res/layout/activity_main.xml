@@ -9,8 +9,23 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/testitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Test it"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Am searching something"
+        android:layout_above="@id/testitButton"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/testitButton"
+        android:text="Cancel it"/>
+
 </RelativeLayout>
